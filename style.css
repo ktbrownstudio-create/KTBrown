@@ -1,47 +1,52 @@
 body {
   font-family: Georgia, serif;
-  background-color: #fce4ec;
-  color: #333;
+  background-color: #FF1493;
+  color: white;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   line-height: 1.6;
 }
+
 header {
   text-align: center;
   padding: 20px 0;
-  border-bottom: 2px solid #e91e63;
+  border-bottom: 2px solid white;
 }
 
 header h1 {
-  color: #c2185b;
+  color: white;
+  margin-bottom: 10px;
+}
+header h1 {
+  color: white;
   margin-bottom: 10px;
 }
 
 nav a {
-  color: #c2185b;
+  color: white;
   text-decoration: none;
   margin: 0 15px;
   font-size: 1.1em;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
 
 .post {
-  background: white;
+  background: rgba(255, 255, 255, 0.15);
   padding: 20px;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
 .post h2 {
-  color: #c2185b;
+  color: white;
   margin-top: 0;
 }
+
 .post .date {
-  color: #888;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 0.9em;
   font-style: italic;
 }
@@ -56,6 +61,6 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 20px 0;
-  color: #888;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 0.9em;
 }
