@@ -3,25 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - KT Brown Studio</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>About | KT Brown</title>
+  <meta name="description" content="About KT Brown: designer clothing for the woman with intellect, gumption and style.">
+  <meta name="theme-color" content="#ff0099">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>KT Brown Studio</h1>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
+  <header class="site">
+    <a class="brand" href="home.html">KT Brown</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
+
   <main>
-    <article class="post">
-      <h2>About Me</h2>
-      <p>Write something about yourself here. You can edit this text anytime.</p>
-    </article>
+    <section>
+      <div class="wrap">
+        <p class="eyebrow">About KT Brown</p>
+        <h2>For the woman with intellect, gumption and style.</h2>
+        <!-- Edit the paragraphs below to tell your own story. -->
+        <p class="lead">KT Brown is a designer clothing brand created for women who know who they are. Our pieces are designed with care, made to be worn with confidence, and built to stand out without trying too hard.</p>
+        <p class="lead">We believe what you wear should reflect how you think and how you move through the world: sharp, bold and entirely your own.</p>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="wrap">
+        <p class="eyebrow">What we stand for</p>
+        <div class="three">
+          <div><h3>Intellect</h3><p>Thoughtful design, considered fabrics and attention to detail.</p></div>
+          <div><h3>Gumption</h3><p>Pieces with character, made for women who go after what they want.</p></div>
+          <div><h3>Style</h3><p>Timeless shapes with a distinctive KT Brown point of view.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Let's connect.</h2>
+        <p class="lead">Questions, collaborations or custom enquiries are always welcome.</p>
+        <a class="btn dark" href="contact.html">Get in Touch</a>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 KT Brown Studio</p>
+  <footer class="site">
+    <a href="home.html">Home</a><a href="collection.html">Collection</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    <p>&copy; 2026 KT Brown</p>
   </footer>
 </body>
+</html>

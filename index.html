@@ -3,34 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KT Brown Studio</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>KT Brown | Website Under Construction</title>
+  <meta name="description" content="KT Brown: designer clothing for the woman with intellect, gumption and style. Website under construction.">
+  <meta name="theme-color" content="#ff0099">
+  <meta property="og:title" content="KT Brown | Coming Soon">
+  <meta property="og:description" content="For the woman with intellect, gumption and style.">
+  <meta property="og:image" content="images/kt-brown.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root { --pink: #ff0099; --white: #ffffff; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      background: var(--pink);
+      color: var(--white);
+      font-family: 'Outfit', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 300;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 28px 18px 24px;
+    }
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; overflow: hidden;
+      clip: rect(0 0 0 0); white-space: nowrap;
+    }
+    figure {
+      width: 100%;
+      max-width: 480px;
+      animation: fade 1.2s ease both;
+    }
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 6px solid var(--white);
+      box-shadow: 0 12px 40px rgba(60, 0, 35, 0.35);
+    }
+    @keyframes fade {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: none; }
+    }
+    .notify {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 44px;
+      border: 1px solid var(--white);
+      color: var(--white);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: background 0.25s, color 0.25s;
+    }
+    .notify:hover, .notify:focus-visible { background: var(--white); color: var(--pink); outline: none; }
+    .hint { margin-top: 14px; font-size: 0.8rem; opacity: 0.9; }
+    footer { margin-top: 30px; font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.85; }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>KT Brown Studio</h1>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
-    </nav>
-  </header>
-  <main>
-    <article class="post">
-      <h2>My First Post</h2>
-      <p class="date">October 2026</p>
-      <p>Welcome to my website! This is my first post. I'm excited to share my work with you.</p>
-    </article>
+  <h1 class="sr-only">KT Brown: for the woman with intellect, gumption and style. Website under construction.</h1>
 
-    <article class="post">
-      <h2>Another Post</h2>
-      <p class="date">October 2026</p>
-      <p>Here's another post. You can edit this text or add more posts below.</p>
-    </article>
-  </main>
+  <figure>
+    <img src="images/kt-brown.jpg" width="845" height="1204"
+         alt="KT Brown. For the woman with intellect, gumption and style. Website under construction. A model walks the runway in a gold cut-out bodice and a pale flowing skirt.">
+  </figure>
 
-  <footer>
-    <p>&copy; 2026 KT Brown Studio</p>
-  </footer>
+  <a class="notify" href="mailto:ktbrownstudio@gmail.com?subject=Notify%20me%20about%20KT%20Brown&body=Hi%20KT%20Brown%2C%0A%0APlease%20notify%20me%20when%20the%20website%20launches.%0A%0AMy%20name%3A%20">Notify Me</a>
+  <p class="hint">Tap to email us and we'll let you know when we launch.</p>
+
+  <footer>&copy; 2026 KT Brown</footer>
 </body>
 </html>
-<img src="your-image-name.jpg" alt=
