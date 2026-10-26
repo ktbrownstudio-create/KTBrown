@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KT Brown | Website Under Construction</title>
+  <meta name="description" content="KT Brown: designer clothing for the woman with intellect, gumption and style. Website under construction.">
+  <meta name="theme-color" content="#ff0099">
+  <meta property="og:title" content="KT Brown | Coming Soon">
+  <meta property="og:description" content="For the woman with intellect, gumption and style.">
+  <meta property="og:image" content="kt-brown-photo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root { --pink: #ff0099; --white: #ffffff; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      background: var(--pink);
+      color: var(--white);
+      font-family: 'Outfit', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 300;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 18px 24px;
+    }
+    main { width: 100%; max-width: 640px; animation: fade 1.2s ease both; }
+    @keyframes fade {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: none; }
+    }
+    h1 {
+      font-weight: 400;
+      font-size: clamp(2.4rem, 12.5vw, 5.5rem);
+      white-space: nowrap;
+      line-height: 1;
+      letter-spacing: 0.01em;
+    }
+    .tagline {
+      font-weight: 300;
+      font-size: clamp(1.1rem, 5vw, 2rem);
+      line-height: 1.3;
+      max-width: 15em;
+      margin: 18px auto 0;
+    }
+    figure { margin-top: 34px; }
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 0;
+      box-shadow: none;
+    }
+    .soon {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+    }
+    .notify {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 44px;
+      border: 1px solid var(--white);
+      color: var(--white);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      transition: background 0.25s, color 0.25s;
+    }
+    .notify:hover, .notify:focus-visible { background: var(--white); color: var(--pink); outline: none; }
+    footer { margin-top: 34px; font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>KT Brown</h1>
+    <p class="tagline">For the woman with intellect, gumption and style.</p>
+
+    <figure>
+      <img src="kt-brown-photo.jpg" width="845" height="505" alt="">
+    </figure>
+
+    <p class="soon">Website under construction</p>
+    <a class="notify" href="mailto:ktbrownstudio@gmail.com?subject=Notify%20me%20about%20KT%20Brown&body=Hi%20KT%20Brown%2C%0A%0APlease%20notify%20me%20when%20the%20website%20launches.%0A%0AMy%20name%3A%20">Notify Me</a>
+  </main>
+
+  <footer>&copy; 2026 KT Brown</footer>
+</body>
+</html>
